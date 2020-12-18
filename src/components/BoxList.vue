@@ -1,11 +1,10 @@
 <template>
   <v-card
     width="800px"
-    height="800px"
+    max-height="800px"
     class="mx-auto mt-5 mybox overflow-y-auto"
-    :class="scrollbarTheme"
   >
-    <v-container width="800px" height="800px" class="mybox" fluid>
+    <v-container width="800px" max-height="800px" class="mybox" fluid>
       <v-input class="myinput">
         <v-text-field
           v-model="newTask"
